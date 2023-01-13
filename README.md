@@ -69,7 +69,7 @@ João Paulo - Códigos e diagrama
   <img align="center" alt="workbench" height="50" width="50" src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" />
   <img align="center" alt="power bi" height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/630px-New_Power_BI_Logo.svg.png"/>
   <img align="center" alt="keep" height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Google_Keep_icon_%282020%29.svg/768px-Google_Keep_icon_%282020%29.svg.png" />
-  <img align="center" alt="GitHub" height="50" width="50" src="https://raphaelbrodrigues.github.io/images/git.png" />
+  <img align="center" alt="GitHub" height="50" width="50" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
    <img align="center" alt="EXcel" height="60" width="60" src="https://download.logo.wine/logo/Microsoft_Excel/Microsoft_Excel-Logo.wine.png" />
  <img align="center" alt="Canva" height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/2048px-Canva_icon_2021.svg.png" />
 </div>
