@@ -1,0 +1,85 @@
+
+
+CREATE DATABASE itau;
+
+USE ITAU; 
+CREATE TABLE correntistas( nome varchar(100), sobrenome varchar(100), cpf varchar(100), limite int);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("brenda", "machado", "16347740788", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("tiene", "machado", "15465258459", 1000);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("andre", "machado", "14521251251", 451);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("juliano", "machado", "12345678901", 800);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("amanda", "lima", "16347740788", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("henrique", "machado", "7854693210", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("luiz", "machado", "16347740788", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("bruna", "machado", "16347740788", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("joao", "machado", "16347740788", 11);
+insert into correntistas (nome, sobrenome,cpf,limite) values ("maria", "machado", "16347740788", 11);
+
+========================================================================================================
+
+
+Abrir o Exel, 
+botar a planilha 
+Salver como csv com virgula
+botar as informações no formato certo -- ctrl +1
+
+
+
+=================================================================================================
+
+CREATE DATABASE banco_teste;
+USE banco_teste;
+
+CREATE TABLE cliente (
+id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nome VARCHAR(100) NOT NULL,
+matricula INT(10) NOT NULL,
+nascimento DATE NOT NULL
+);
+
+SELECT * FROM cliente;
+
+TRUNCATE TABLE cliente; ----- apaga todos os dados tem apagar a tabela
+
+DROP TABLE cliente;
+=====================================================================================================
+Botão direito na tabela 
+table date import wizard
+bota o arquivo
+use existing table
+desativa o id
+next next next
+
+====================================================================================================
+CREATE DATABASE banco_got;
+USE banco_got;
+
+CREATE TABLE personagens (
+id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+Personagens VARCHAR(100) NOT NULL,
+Atores VARCHAR(100) NOT NULL,
+Aparicoes INT(3) NOT NULL
+);
+
+SELECT * FROM personagens;
+
+CREATE TABLE episodios(
+id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+temporada INT(10) NOT NULL,
+episodio INT(10) NOT NULL,
+titulo VARCHAR(255) NOT NULL,
+ranking FLOAT(10) NOT NULL,
+votos INT (10) NOT NULL,
+duração INT (10) NOT NULL
+);
+
+SELECT * FROM episodios;
+
+CREATE TABLE casas(
+id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+casa VARCHAR(100) NOT NULL,
+região VARCHAR(100) NOT NULL
+);
+
+SELECT * FROM casas;
+
