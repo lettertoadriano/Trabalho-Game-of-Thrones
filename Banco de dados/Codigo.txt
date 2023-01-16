@@ -10,9 +10,6 @@ aparicoes INT(3) NOT NULL
 
 SELECT * FROM personagens; # Exibir informações da tabela personagens
 
-SELECT * FROM personagens ORDER BY aparicoes ASC; #Consultar aparição por ordem crescente
-SELECT * FROM personagens ORDER BY aparicoes DESC; #Consultar aparição por ordem decrescente
-
 CREATE TABLE episodios(
 id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
 temporada INT(10) NOT NULL,
@@ -26,20 +23,6 @@ duração INT(10) NOT NULL
 
 SELECT * FROM episodios; # Exibir informações da tabela episódios
 
-SELECT AVG(ranking) FROM episodios; # Calcular a média de nota dos episódios
-
-SELECT AVG(ranking) FROM episodios WHERE temporada = 1; # Calcular a nota média de cada season
-SELECT AVG(ranking) FROM episodios WHERE temporada = 2;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 3;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 4;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 5;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 6;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 7;
-SELECT AVG(ranking) FROM episodios WHERE temporada = 8;
-
-SELECT AVG(audiencia_eua) FROM episodios; # Calcular a média de audiência nos Estados Unidos
-SELECT AVG(duração) FROM episodios; # Calcular a média de duração dos episódios 
-
 CREATE TABLE casas(
 id INT(10) PRIMARY KEY AUTO_INCREMENT NOT NULL,
 casa VARCHAR(100),
@@ -47,3 +30,24 @@ regiao VARCHAR(100)
 );
 
 SELECT * FROM casas; # Exibir informações da tabela casas
+
+--Qual personagem mais apareceu?
+
+SELECT * FROM personagens ORDER BY aparicoes ASC; #Consultar aparição por ordem crescente
+SELECT * FROM personagens ORDER BY aparicoes DESC; #Consultar aparição por ordem decrescente
+
+--Média de nota de todos os episódios?
+
+SELECT ROUND (AVG(ranking) ,2) FROM episodios; # Calcular a média de nota dos episódios
+
+--Média de audiência de todos episódios?
+
+SELECT ROUND (AVG(audiencia_eua) ,2) FROM episodios; # Calcular a média de audiência nos Estados Unidos
+
+--Média de duração dos eps?
+
+SELECT ROUND (AVG(duração) ,2) FROM episodios; # Calcular a média de duração dos episódios 
+
+--Qual a temporada melhor e pior avaliada?
+
+SELECT Temporada, COUNT(*) Numero_de_Eps ,ROUND (AVG(ranking) ,2) AS Media FROM episodios GROUP BY temporada ORDER BY Media DESC ; #Calculo de média de avaliação de todas as temporadas
