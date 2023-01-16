@@ -11,7 +11,12 @@ Projeto em squad, referente ao módulo 4, do curso de <strong>Desenvolvedor Web 
 
 O trabalho abaixo tem como o intuito  montar um dashboard com base no conjunto de dados do game of thrones, a fim de realizar uma
 apresentação com a exploração dos dados. O repositório, trata-se dos dados de uma série onde o usuário poderá fazer perguntas e achar as respostas. 
-
+ <br>
+ <div align="center">
+<h2>link para apresentação:</h2>
+https://www.canva.com/design/DAFXf2V4Dgc/_QrJJRC6I_zr3gGrSkUFug/edit?utm_content=DAFXf2V4Dgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+ </div>
+ <br>
 <div align="center">
 
 <h1  align="center">O que conta a história de Game of Thrones?</h1>
