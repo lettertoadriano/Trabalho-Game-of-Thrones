@@ -14,7 +14,7 @@ apresentação com a exploração dos dados. O repositório, trata-se dos dados 
  <br>
  <div align="center">
 <h2>link para apresentação:</h2>
-https://www.canva.com/design/DAFXf2V4Dgc/_QrJJRC6I_zr3gGrSkUFug/edit?utm_content=DAFXf2V4Dgc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+https://www.canva.com/design/DAFXf2V4Dgc/EvvhfyagQ_uYrxGYdsAkuQ/view?utm_content=DAFXf2V4Dgc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
  </div>
  <br>
 <div align="center">
